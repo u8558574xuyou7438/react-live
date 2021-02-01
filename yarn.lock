@@ -7554,10 +7554,10 @@ pretty-format@^22.4.0, pretty-format@^22.4.3:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
-prism-react-renderer@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.0.1.tgz#98a437b01a5e48f140ae2321a95fa6693d4fe9de"
-  integrity sha512-EDdbBEoG9xD1zhN3pKYxTc10ifpTV2rqJBKpCTKRVAxNE3YP1XVp6Ewa+ydTnYALQOmHWsNVVJC0zzA9fafbew==
+prism-react-renderer@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.1.1.tgz#1c1be61b1eb9446a146ca7a50b7bcf36f2a70a44"
+  integrity sha512-MgMhSdHuHymNRqD6KM3eGS0PNqgK9q4QF5P0yoQQvpB6jNjeSAi3jcSAz0Sua/t9fa4xDOMar9HJbLa08gl9ug==
 
 private@^0.1.6, private@^0.1.8, private@~0.1.5:
   version "0.1.8"
