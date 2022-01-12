@@ -23,7 +23,7 @@
     "core-js": "^2.4.1",
     "dom-iterator": "^1.0.0",
     "prism-react-renderer": "^1.0.1",
-    "prop-types": "^15.5.8",
+    "prop-types": "^15.8.0",
     "react-simple-code-editor": "^0.10.0",
     "unescape": "^1.0.1"
   },
