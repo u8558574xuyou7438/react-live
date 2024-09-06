@@ -19,7 +19,7 @@
     "lint": "eslint --config .eslintrc \"./**/*.js\""
   },
   "dependencies": {
-    "buble": "0.19.6",
+    "buble": "0.20.0",
     "core-js": "^2.4.1",
     "dom-iterator": "^1.0.0",
     "prism-react-renderer": "^1.0.1",
