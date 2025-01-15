@@ -401,6 +401,21 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
+CSSselect@0.x:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/CSSselect/-/CSSselect-0.7.0.tgz#e4054c67b467465f3c9500c0da0aa7878c4babd2"
+  integrity sha512-nO3y7XdfjxNxiw9MU7zr7y5KyiorBmL/SGx0hqPDp4oQmm7uFoFQLvC+kYZWGHo7cM23Zwog0KL00d0RJhd/4w==
+  dependencies:
+    CSSwhat "0.4"
+    boolbase "~1.0.0"
+    domutils "1.4"
+    nth-check "~1.0.0"
+
+CSSwhat@0.4:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/CSSwhat/-/CSSwhat-0.4.7.tgz#867da0ff39f778613242c44cfea83f0aa4ebdf9b"
+  integrity sha512-bU5cYG02crjQGDN6wm8USThp/sr/MUulMTrVA1CENSBhv3B+mlJfYDP1em/wJlMT0aYcWso0cuT9NXW74yPfog==
+
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"
@@ -2387,6 +2402,13 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
+cheerio-select@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/cheerio-select/-/cheerio-select-0.0.3.tgz#3f2420114f3ccb0b1b075c245ccfaae5d617a388"
+  integrity sha512-T547B31tofMJg2Hm7sthSuP7X1hxckUHqOZYXEnaCJnEFL47g1VJCvwi67WIAsWbxcKFvMJYHPekjhBfTjSD5Q==
+  dependencies:
+    CSSselect "0.x"
+
 cheerio@^1.0.0-rc.2:
   version "1.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.3.tgz#094636d425b2e9c0f4eb91a46c05630c9a1a8bf6"
@@ -3225,11 +3247,12 @@ dom-helpers@^3.4.0:
   dependencies:
     "@babel/runtime" "^7.1.2"
 
-dom-iterator@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/dom-iterator/-/dom-iterator-1.0.0.tgz#9c09899846ec41c2d257adc4d6015e4759ef05ad"
-  integrity sha512-7dsMOQI07EMU98gQM8NSB3GsAiIeBYIPKpnxR3c9xOvdvBjChAcOM0iJ222I3p5xyiZO9e5oggkNaCusuTdYig==
+dom-iterator@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dom-iterator/-/dom-iterator-1.0.1.tgz#a123781fac4f5fbc8f719e6618daf002a00d48f7"
+  integrity sha512-0U9Z/Br5VLzBJae84ht7m7uuM+kffWbLMYdGIki+/ugehDDLxLM4xQWRj+6GxavidrMf53nrBmu3UgNBNgrgHQ==
   dependencies:
+    cheerio-select "0.0.3"
     component-props "1.1.1"
     component-xor "0.0.4"
 
@@ -3280,6 +3303,13 @@ domhandler@^2.3.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-2.4.2.tgz#8805097e933d65e85546f726d60f5eb88b44f803"
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
+  dependencies:
+    domelementtype "1"
+
+domutils@1.4:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.4.3.tgz#0865513796c6b306031850e175516baf80b72a6f"
+  integrity sha512-ZkVgS/PpxjyJMb+S2iVHHEZjVnOUtjGp0/zstqKGTE9lrZtNHlNQmLwP/lhLMEApYbzc08BKMx9IFpKhaSbW1w==
   dependencies:
     domelementtype "1"
 
@@ -6762,7 +6792,7 @@ npmlog@^4.0.2, npmlog@^4.1.2:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
-nth-check@~1.0.1:
+nth-check@~1.0.0, nth-check@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-1.0.2.tgz#b2bd295c37e3dd58a3bf0700376663ba4d9cf05c"
   integrity sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==
